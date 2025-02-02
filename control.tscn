@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://qcu87r1ebmhj"]
+[gd_scene load_steps=2 format=3 uid="uid://qcu87r1ebmhj"]
+
+[ext_resource type="Script" path="res://first_name_last_name.gd" id="1_0ywqy"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -12,3 +14,4 @@ grow_vertical = 2
 layout_mode = 0
 offset_right = 180.0
 offset_bottom = 74.0
+script = ExtResource("1_0ywqy")
